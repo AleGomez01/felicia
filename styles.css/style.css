@@ -2,50 +2,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
 /* font-family: "Alan Sans", sans-serif */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: "Alan Sans", sans-serif;
 }
 
+/* header */
 h1{
     color: rebeccapurple;
     font-size: 32px;
 }
 
-p{
-    color: slateblue;
-    font-size: 25px;
+.container-fluid{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
 }
 
-.footer-p {
-    font-size: 12px;
+.navbar-nav{
+    display: grid !important ;
+    grid-template-columns: repeat(5, auto);
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
 }
 
-.logo{
-    width: 40px;
-    display: block;
-    margin: 20px auto;
+.nav-logo {
+  grid-column: 1;
 }
 
-.li-nav{
-    list-style-type: none;
+.nav-center {
+  grid-column: 2;
+  justify-self: center;
 }
 
-.a-nav{
-    color: black;
-    text-decoration: none;
+.navbar-nav {
+  grid-column: 3;
+  justify-self: end;
 }
 
-.p-weight{
-    font-weight: 900;
-    text-align: center;
-}
+
 
 .logo-felicia{
-  width: 60px;
+  width: 50px;
   display: block;
   margin: 20px;
 }
 
+.felicia-encabezado{
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* body */
 .bg-nav-propio{
-    background-color: #d171e4;
+    background-color: #dc95eb;
+}
+
+.encabezado-body{
+    display: block;
+    margin-left: 10px;
+}
+
+.p-body{
+    display: block;
+    margin-left: 10px;
+}
+
+/* footer */
+.footer-p {
+    font-size: 12px;
 }
