@@ -44,22 +44,33 @@ background-color: #db6e6e;
     color: white;
 }
 
-/* zapas container */
-.zapas-container{
+/* body */
+
+/*shop-online*/
+.shop-online{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+/* .filtro{
+    
+} */
+
+.cards-container{
     margin: 35px 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 30px;
     flex-wrap: wrap;
 }
 
-/* cards */
+/* cards bolsos */
 
 .card{
     margin: 20px 10px;
     display: block;
-    width: 350px;
+    width: 200px;
     padding: 16px;
 }
 
@@ -80,9 +91,6 @@ background-color: #db6e6e;
     border: 1px solid black;
     border-radius: 10px;
 }
-
-
-/* body */
 
 
 /* footer */
