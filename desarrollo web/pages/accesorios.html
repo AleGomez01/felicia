@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- BOOTSTRAP -->
+     <title>Document</title>
+    <!--BOOSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!-- CSS -->
+     <!-- CSS -->
     <link rel="stylesheet" href="../styles.css/style.css">
 
 </head>
 <body>
-    <header>
+   <header>
       <div class="logo-container">
         <a href="../index.html">
       <img class="logo" src="../assets/images/felicia-logo.png" alt="logo">
@@ -36,8 +36,8 @@
           <div class="navbar-nav">
             <a class="nav-link" href="../index.html">Felicia</a>
             <a class="nav-link" aria-current="page" href="./modelos.html">Bolsos</a>
-            <a class="nav-link" href="./accesorios.html">Accesorios</a>
-            <a class="nav-link" href="#">Envios</a>
+            <a class="nav-link" href="#">Accesorios</a>
+            <a class="nav-link" href="./enviosydevoluciones.html">Envios</a>
             <a class="nav-link" href="./contacto.html">Contacto</a>
           </div>
         </div>
@@ -45,15 +45,45 @@
     </nav>
 
     </header>
-
     <main>
-        <h1>Envios y Devoluciones</h1>
+      <section class="contact-container">
+        <div class="">
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet deserunt voluptatibus molestiae quibusdam repudiandae pariatur. Adipisci sunt neque quibusdam ducimus, eveniet ipsum eius necessitatibus quidem voluptate consequatur nobis non.
-        Delectus incidunt amet magnam mollitia accusantium, consequuntur assumenda placeat voluptas hic deserunt. Sint culpa eum optio eos libero, delectus maiores corporis molestiae esse, repudiandae aliquam nostrum suscipit tempora repellat unde!</p>
-        <p class= "p-weight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet deserunt voluptatibus molestiae quibusdam repudiandae pariatur. Adipisci sunt neque quibusdam ducimus, eveniet ipsum eius necessitatibus quidem voluptate consequatur nobis non.
-        Delectus incidunt amet magnam mollitia accusantium, consequuntur assumenda placeat voluptas hic deserunt. Sint culpa eum optio eos libero, delectus maiores corporis molestiae esse, repudiandae aliquam nostrum suscipit tempora repellat unde!</p>
+          <form class="contact-form">
 
+           <label class="formulario" for="name">Nombre</label>
+           <input type="text" id="name" name="name" required placeholder="Tu nombre">
+
+         <label class="formulario" for="email">Email</label>
+         <input type="email" id="email" name="email" required placeholder="tu@email.com">
+
+         <label class="formulario" for="message">Mensaje</label>
+         <textarea id="message" name="message" rows="5" required placeholder="Contanos en qué podemos ayudarte"></textarea>
+
+         <button class="formulario" type="submit">Enviar</button>
+
+         </form>
+
+
+        </div>
+
+       <div class="map-container">
+         <iframe
+       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3905.4235536657347!2d-58.39474434411858!3d-34.60272856952061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabf9a27dcb3%3A0x7f370d40805741c2!2sCallao!5e0!3m2!1ses!2sar!4v1765161774218!5m2!1ses!2sar" 
+       width="600" 
+       height="450" 
+       style="border:0;" 
+       allowfullscreen="" 
+       loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+         </iframe>
+        </div>
+
+        <div class="redes">
+
+        </div>
+
+      </section>
+        
     </main>
 
     <footer>
