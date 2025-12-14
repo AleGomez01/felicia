@@ -237,10 +237,6 @@ background-color: #db6e6e;
 
 /* seccion faq */
 
-/* .seccion-faq{
-    width: 800px;
-} */
-
 .accordion{
     display: flex;
     justify-content: center;
@@ -249,5 +245,6 @@ background-color: #db6e6e;
 .accordion-item{
     width: 800px;
 }
+
 
 
