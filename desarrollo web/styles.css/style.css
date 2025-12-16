@@ -246,5 +246,66 @@ background-color: #db6e6e;
     width: 800px;
 }
 
+/* page sobre nosotros */
+/* seccion hero */
 
+.hero-img{
+    background-image:url(../assets/images/imagen-hero-sobrenosotros.png);
+    background-size:cover;
+    background-position: center center ;
+    background-repeat: no-repeat ;
+    min-height: 60vh;
+    padding: 10px;
+}
 
+/* seccion quienes somos */
+
+.quienes-somos{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.quienes-somos_texto{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-self: center;
+}
+
+.quienes-somos_imagen{
+    padding: 10px;
+}
+
+.quienes-somos_imagen img{
+    width: 100%;
+}
+
+/* seccion valores */
+
+.valores-icon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.valores-icon_card{
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 15px;
+    justify-self: center;
+    text-align: center;
+}
+
+.valores-icon_card img{
+    width: 100%;
+}
+
+/* seccion nuestro proceso */
+ .proceso{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+ }
