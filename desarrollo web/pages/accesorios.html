@@ -18,10 +18,9 @@
       </a>
       </div>
 
-    <!-- Example Code Start-->
+    <!-- nav-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <!-- <a class="navbar-brand" href="./index.html">Felicia</a> -->
         <button
           class="navbar-toggler"
           type="button"
@@ -45,45 +44,151 @@
     </nav>
 
     </header>
+
     <main>
-      <section class="contact-container">
-        <div class="">
+            <section class="section-accesorios-filtro">
+              <h1>ACCESORIOS</h1>
+              
+              <div class="accesorios-filtro">
+                <select class="form-select form-select-sm" aria-label="Small select example">
+                 <option selected>Precio</option>
+                 <option value="1">Todos los precios</option>
+                 <option value="2">Menor a $20.000</option>
+                 <option value="3">$20.000 – $30.000</option>
+                 <option value="4">$30.000 – $40.000</option>
+                 <option value="5">Mayor a $40.000</option>
+                </select>
 
-          <form class="contact-form">
+                <select class="form-select form-select-sm" aria-label="Small select example">
+                 <option selected>Tipo</option>
+                 <option value="1">Todos los tipos</option>
+                 <option value="2">Bolsos</option>
+                 <option value="3">Mochilas</option>
+                 <option value="4">Carteras</option>
+                 <option value="5">Riñoneras</option>
+                 <option value="6">Accesorios</option>
+                </select>
 
-           <label class="formulario" for="name">Nombre</label>
-           <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                <select class="form-select form-select-sm" aria-label="Small select example">
+                 <option selected>Accesorios</option>
+                 <option value="1">Todos</option>
+                 <option value="2">Monederos</option>
+                 <option value="3">Porta tarjetas</option>
+                 <option value="4">Kindle Pouches</option>
+                 <option value="5">Neceseres</option>
+                 <option value="6">Llaveros</option>
+                </select>
 
-         <label class="formulario" for="email">Email</label>
-         <input type="email" id="email" name="email" required placeholder="tu@email.com">
+              </div>
 
-         <label class="formulario" for="message">Mensaje</label>
-         <textarea id="message" name="message" rows="5" required placeholder="Contanos en qué podemos ayudarte"></textarea>
+            </section>
 
-         <button class="formulario" type="submit">Enviar</button>
+            <section class="accesorios-container">
 
-         </form>
+              <div class="accesorios-card">
+                <h3>Monedero artesanal</h3>
+                <img src="../assets/images/accesorios-monedero-color_hueso.png" alt="Monedero artesanal de tela color terracota, diseño minimalista">
+                <p>Diseño simple y elegante, pensado para el uso diario y fácil de combinar.</p>
+                <h4>$25.000</h4>
+                <a class="card-button" href="">ver detalles</a>
+              </div>
+
+              <div class="accesorios-card">
+                <h3>Monedero artesanal</h3>
+                <img src="../assets/images/accesorio-monedero-color_terracota.png" alt="Monedero artesanal de tela color terracota, diseño minimalista">
+                <p>Monedero compacto y funcional, ideal para llevar monedas y pequeños objetos con estilo.</p>
+                <h4>$25.000</h4>
+                <a class="card-button" href="">ver detalles</a>
+              </div>
+
+              <div class="accesorios-card">
+                <h3>Neceser artesanal</h3>
+                <img src="../assets/images/accesorio-neseceres-color_rosa.png" alt="Neceser artesanal de tela color rosado, estilo minimalista">
+                <p>Espacioso y práctico, ideal para organizar cosméticos o artículos personales.</p>
+                <h4>$38.000</h4>
+                <a class="card-button" href="">ver detalles</a>
+              </div>
+
+              <div class="accesorios-card">
+                <h3>Neceser artesanal</h3>
+                <img src="../assets/images/accesorio-neseceres-color_hueso.png" alt="Neceser artesanal de tela color hueso, estilo minimalista">
+                <p>Un accesorio versátil para viajes o uso diario, con un diseño limpio y moderno.</p>
+                <h4>$38.000</h4>
+                <a class="card-button" href="">ver detalles</a>
+              </div>
+
+              <div class="accesorios-card">
+                <h3>Funda para libros</h3>
+                <img src="../assets/images/accesorio-portalibro-color_hueso.png" alt="Funda para libros de tela color hueso, diseño artesanal">
+                <p>Ideal para llevar libros en la mochila sin dañarlos, con un estilo natural.</p>
+                <h4>$30.000</h4>
+                <a class="card-button" href="">ver detalles</a>
+              </div>
+
+              <div class="accesorios-card">
+                <h3>Funda para libros</h3>
+                <img src="../assets/images/accesorio-portalibro-color_verde.png" alt="Funda para libros de tela color verde, diseño artesanal">
+                <p>Ideal para llevar libros en la mochila sin dañarlos, con un estilo natural.</p>
+                <h4>$30.000</h4>
+                <a class="card-button" href="">ver detalles</a>
+              </div>
+
+              <div class="accesorios-card">
+                <h3>Porta tarjetas</h3>
+                <img src="../assets/images/accesorio-portatarjeta-color_hueso.png" alt="Porta tarjetas artesanal de tela color hueso, diseño minimalista">
+                <p>Liviano y práctico, pensado para llevar tarjetas esenciales de forma ordenada.</p>
+                <h4>$18.000</h4>
+                <a class="card-button" href="">ver detalles</a>
+              </div>
+
+              <div class="accesorios-card">
+                <h3>Porta tarjetas</h3>
+                <img src="../assets/images/accesorio-portatarjeta-color_verde.png" alt="Porta tarjetas artesanal de tela color verde, diseño minimalista">
+                <p>Diseño compacto ideal para el día a día, con un acabado simple y elegante.</p>
+                <h4>$18.000</h4>
+                <a class="card-button" href="">ver detalles</a>
+              </div>
+
+              <div class="accesorios-card">
+                <h3>Llavero artesanal</h3>
+                <img src="./assets/bolsos/bolso3.jpg" alt="bolso1">
+                <p>Un detalle simple y funcional para llevar tus llaves con estilo.</p>
+                <h4>$10.000</h4>
+                <a class="card-button" href="">ver detalles</a>
+              </div>
+
+              <div class="accesorios-card">
+                <h3>Llavero artesanal</h3>
+                <img src="./assets/bolsos/bolso3.jpg" alt="bolso1">
+                <p>Práctico y resistente, ideal para uso diario con un diseño sobrio.</p>
+                <h4>$10.000</h4>
+                <a class="card-button" href="">ver detalles</a>
+              </div>
+
+              <div class="accesorios-card">
+                <h3>Funda para Kindle</h3>
+                <img src="../assets/images/accesorio-kindle-color_blanco.png" alt="Funda para Kindle de tela color hueso, diseño artesanal y acolchado">
+                <p>Protección suave y resistente para tu Kindle, ideal para llevarlo a todos lados.</p>
+                <h4>$32.000</h4>
+                <a class="card-button" href="">ver detalles</a>
+              </div>
+
+              <div class="accesorios-card">
+                <h3>Funda para Kindle</h3>
+                <img src="../assets/images/accesorio-kindle-color_gris.png" alt="Funda para Kindle de tela color gris, diseño artesanal y acolchado">
+                <p>Diseñada para cuidar tu lector digital con un estilo simple y moderno.</p>
+                <h4>$32.000</h4>
+                <a class="card-button" href="">ver detalles</a>
+              </div>
 
 
-        </div>
+            </section>
 
-       <div class="map-container">
-         <iframe
-       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3905.4235536657347!2d-58.39474434411858!3d-34.60272856952061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabf9a27dcb3%3A0x7f370d40805741c2!2sCallao!5e0!3m2!1ses!2sar!4v1765161774218!5m2!1ses!2sar" 
-       width="600" 
-       height="450" 
-       style="border:0;" 
-       allowfullscreen="" 
-       loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
-         </iframe>
-        </div>
+            <section class="nuevas-piezas">
 
-        <div class="redes">
+              <h3>Nuevas piezas proximamente</h3>
 
-        </div>
-
-      </section>
-        
+            </section>
     </main>
 
     <footer>

@@ -136,23 +136,18 @@ background-color: #db6e6e;
 }
 
 /* redes */
-
 .titulo-redes{
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items: center;
 }
+
 .redes{
     display: grid;
     grid-template-rows: 100px 1fr;
 
 }
 
-.titulo-redes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .iconos{
     display: flex;
@@ -247,6 +242,7 @@ background-color: #db6e6e;
 }
 
 /* page sobre nosotros */
+
 /* seccion hero */
 
 .hero-img{
@@ -309,3 +305,47 @@ background-color: #db6e6e;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
  }
+
+ /* page accesorio */
+
+ /* filtros */
+
+ .section-accesorios-filtro{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ }
+
+ .accesorios-filtro{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+    width: auto;
+ }
+
+ /* card */
+
+ .accesorios-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+ }
+
+ .accesorios-card{
+    margin: 20px 10px;
+    display: block;
+    width: 200px;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.accesorios-card img{
+    width: 100%;
+}
+
+.accesorios-card h4{
+    margin: 16px 0;
+}
+
+ 
