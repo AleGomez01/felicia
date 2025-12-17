@@ -17,10 +17,5 @@
   "bugs": {
     "url": "https://github.com/AleGomez01/felicia/issues"
   },
-  "homepage": "https://github.com/AleGomez01/felicia#readme",
-  "devDependencies": {
-    "stylelint": "^16.26.1",
-    "stylelint-config-standard": "^39.0.1",
-    "stylelint-config-standard-scss": "^16.0.0"
-  }
+  "homepage": "https://github.com/AleGomez01/felicia#readme"
 }
