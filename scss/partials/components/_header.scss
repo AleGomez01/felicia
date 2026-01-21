@@ -1,0 +1,35 @@
+// LOGO
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+     height: 150px;
+    width: 250px;
+    padding: 20;
+}
+
+// NAV
+
+.container-fluid{
+background-color: #db6e6e;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link{
+    color: white;
+}
+
+

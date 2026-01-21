@@ -1,0 +1,45 @@
+.shop-online{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+// cards container
+
+.cards-container{
+    margin: 35px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+// card
+
+.card{
+   padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+
+    img{
+       max-width: 100%;
+    }
+
+    h4{
+    margin: 10px 0;
+    }
+    .card-button{
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    color: black;
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    }
+}
+

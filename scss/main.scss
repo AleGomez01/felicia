@@ -1,0 +1,25 @@
+// BASE
+
+@use './partials/base/reset';
+@use './partials/base/tipografia';
+
+// COMPONENTS
+
+@use './partials/components/buttons';
+@use './partials/components/cards';
+@use './partials/components/general';
+@use './partials/components/header';
+
+// PAGES
+
+@use './partials/pages/accesorios';
+@use './partials/pages/contacto';
+@use './partials/pages/enviosydevoluciones';
+@use './partials/pages/index';
+@use './partials/pages/sobrenosotros';
+
+// UTILITIES
+
+@use './partials/utilities/extend';
+@use './partials/utilities/mixins';
+@use './partials/utilities/variables';

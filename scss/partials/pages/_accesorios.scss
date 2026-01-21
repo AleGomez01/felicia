@@ -1,0 +1,11 @@
+@use '../utilities/mixins';
+
+.section-accesorios-filtro{
+    @include mixin.grid-cols(repeat(2, 1fr))
+}
+
+.accesorios-card{
+    @include mixin.card-base(200px, 16px, 15px);
+    margin: 20px 10px;
+    border: 1px solid black;
+}
